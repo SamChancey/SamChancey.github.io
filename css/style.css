@@ -1,8 +1,19 @@
-#header {
+#site-main {
+    margin-left: 60px;
+    overflow-x: hidden;
+}
+
+#sidebar {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 60px;
+    height: 100%;
     z-index: 99999;
-    transition: left .5s ease;
+    overflow-x: hidden;
+}
+
+#nav {
+    font-size: x-large;
+    text-align: center;
 }

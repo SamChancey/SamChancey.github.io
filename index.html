@@ -28,21 +28,55 @@
   </head>
   <body>
 
-    <div id="sidebar" class="bg-dark">
-        <div id="nav" class="nav flex-column">
+    <div id="sidebar" class="bg-dark d-flex align-items-start flex-column">
+        <div id="nav" class="mb-auto">
             <a class="text-light nav-link active" href="#"><i class="fas fa-home"></i></a>
-            <a class="text-light nav-link" href="#"><i class="fas fa-user"></i></a>
             <a class="text-light nav-link" href="#"><i class="fas fa-code-branch"></i></a>
             <a class="text-light nav-link" href="#"><i class="fas fa-envelope"></i></a>
         </div>
+        <div id="media" class="">
+            <a class="text-light nav-link" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="text-light nav-link" href="#"><i class="fab fa-facebook"></i></a>
+        </div>
     </div>
 
-    <div id="site-main" class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1>Hello, world!!!!!</h1>
+    <div id="displayMode" class="m-2">
+        <button id="btnDarkMode" type="button" class="btn btn-dark">
+            <i class="fas fa-adjust"></i>
+        </button>
+    </div>
+
+    <div id="site-main">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Hi, I'm Sam.</h1>
+                <h4><i> .NET Web Developer | Game Programmer</i></h1>
             </div>
         </div>
+        <div id="about" class="container">
+            <div class="row">
+                <div class="col">
+                    <h5>Who am I?</h5>
+                    <p>
+                        I am currently a .NET Web Developer for Thirty-One Gifts in New Albany, OH.
+                    </p>
+                </div>
+                <div class="col">
+                    <h5>.NET Web Developer</h5>
+                    <div class="progress mb-2">
+                        <div class="progress-label progress-bar bg-secondary" role="progressbar">HTML</div>
+                        <div class="progress-bar bg-info w-25" role="progressbar"></div>
+                    </div>
+                    <div class="progress mb-2">
+                        <div class="progress-label progress-bar bg-secondary" role="progressbar">CSS</div>
+                    </div>
+                    <div class="progress mb-2">
+                        <div class="progress-label progress-bar bg-secondary" role="progressbar">JAVASCRIPT</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </main>
 
   </body>
